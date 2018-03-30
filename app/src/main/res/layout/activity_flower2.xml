@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.umaniwelisara.listview2gridview.Flower2Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/flower2" />
+
+    <TextView
+        android:id="@+id/textview_t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Flower 02" />
+
+    <TextView
+        android:id="@+id/textView_d2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="A flower is a special kind of plant part. Flowers are also called the bloom or blossom of a plant.
+         The flower grows on a stalk – a thin node – which supports it. Flowers have petals. Inside the part of the flower
+         that has petals are the parts which produce pollen and seeds.Flowers are the reproductive structure of flowering
+         plants, which are plants of the division Magnoliophyta, also called the Angiosperms."/>
+
+</LinearLayout>
